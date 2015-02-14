@@ -1,0 +1,176 @@
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+}
+
+div.centered {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.signup {
+    font-family: monospace;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    word-spacing: -0.5em;
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 2em;
+    display: block;
+    width: 700px;
+    margin: 20px auto;
+}
+
+h4 {
+    font-family: helvetica;
+    font-size: 14px;
+    display: inline-block;
+    width: 125px;
+    margin: 5px 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+/*h3 {
+    font-family: monospace;
+    font-size: 2em;
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+}
+div.centered {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+form {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+}
+input.submit {
+    display: inline;
+    text-align: center;
+    width: 75px;
+}
+textarea {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 250px;
+}
+*/
+.error {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    font-size: 20px;
+    width: 325px;
+    margin: 0 auto;
+}
+
+label + label {
+    margin-top: 20px;
+}
+
+label.label {
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type=text] {
+    width: 500px;
+    font-size: 20px;
+    padding: 2px;
+    font-family: monospace;
+
+}
+
+textarea {
+  width: 500px;
+  height: 400px;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+input[type=submit] {
+  font-size: 24px;
+}
+
+input.form {
+    display: inline-block;
+    margin: 5px auto;
+    width: 150px;
+    height: 12px;
+    padding: 2px;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.main-title {
+    font-family: monospace;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    word-spacing: -0.5em;
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.post + .post {
+    margin-top: 15px;
+}
+
+.post-heading {
+    position: relative;
+    border-bottom: 2px solid #000;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-family: monospace;
+    /*display: inline-block;*/
+}
+
+.post-date {
+    font-family: monospace;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #222;
+    padding-bottom: 5px;
+}
+
+.post-content {
+    margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ichbineinblog</title>
+		<style type="text/css">
+            body {
+                font-family: Helvetica;
+                width: 750px;
+                margin: 0 auto;
+                display: block;
+            }
+            h1 {
+                font-family: monospace;
+                font-size: 3em;
+                letter-spacing: 0.1em;
+                word-spacing: -0.5em;
+                text-align: center;
+                display: block;
+                width: 500px;
+                margin: 50px auto;
+            }
+            h3 {
+                font-family: monospace;
+                font-size: 2em;
+                display: block;
+                width: 500px;
+                margin: 20px auto;
+            }
+            div.centered {
+                display: block;
+                margin: 0 auto;
+                width: 700px;
+            }
+            div.blog-subject {
+            	display: inline-block;
+            	font-family: monospace;
+            	font-size: 1.2em;
+            	text-align: left;
+            	width: 300px;
+            	margin-right: 60px;
+            }
+            div.blog-date {
+            	display: inline-block;
+            	font-family: monospace;
+            	font-size: 1.2em;
+            	text-align: right;
+            	width: 300px;
+            	margin-left: 60px;
+
+            }
+            pre.blog-content{
+            	display: block;
+            	font-family: Helvetica;
+            	width: 500px;
+            }
+            hr{
+            	color: black;
+            	background-color: black;
+            }
+        </style>
+		
+	</head>
+
+	<body>
+		<h1>ichbineinblog</h1>
+		<!-- get existing blog posts -->
+				<div class="blog">
+			    	<div class="blog-subject">{{blog.subject}}</div>
+			    	<div class="blog-date">{{blog.created}}</div> 
+			    	<hr>
+        			<pre class="blog-content">{{blog.content}}</pre>
+    			</div>
+	</body>
+</html>

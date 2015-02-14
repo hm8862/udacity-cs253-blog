@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	{% for u in users %}
+		{{ u.render() | safe }}
+		<br><br>
+	{% endfor %}
+
+{% endblock %}

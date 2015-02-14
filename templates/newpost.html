@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ichbineinblog</title>
+        <style type="text/css">
+            body {
+                font-family: Helvetica;
+                width: 1000px;
+                margin: 0 auto;
+                display: block;
+            }
+            h1 {
+                font-family: monospace;
+                font-size: 3em;
+                letter-spacing: 0.1em;
+                word-spacing: -0.5em;
+                text-align: center;
+                display: block;
+                width: 500px;
+                margin: 50px auto;
+            }
+            h3 {
+                font-family: monospace;
+                font-size: 2em;
+                display: block;
+                width: 500px;
+                margin: 20px auto;
+            }
+            div.centered {
+                display: block;
+                margin: 0 auto;
+                width: 700px;
+            }
+            form {
+                display: block;
+                margin: 0 auto;
+                width: 500px;
+            }
+            input {
+                display: block;
+                margin: 10px auto;
+                width: 500px;
+            }
+            input.submit {
+                display: inline;
+                text-align: center;
+                width: 75px;
+            }
+            textarea {
+                display: block;
+                margin: 10px auto;
+                width: 500px;
+                height: 250px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="centered">
+            <h1>ich bin ein blog</h1>
+        </div>
+        <!-- enter new post -->
+        <div class="centered">
+            <h3>new post</h3>
+            <div name="form">
+                <form method="post">
+                    subject
+                    <br>
+                    <input type="text" name="subject">
+                    <br>
+                    blog
+                    <br>
+                    <textarea name="content"></textarea>
+                    <input class="submit" type="submit">
+                </form>
+                <div>{{error}}</div>
+            </div>
+        </div>
+    </body>
+</html>
